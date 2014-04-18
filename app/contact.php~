@@ -19,5 +19,6 @@ if(!mail($to, $subject, $message, $headers)){
 }else{
   $mail_status='yes';
   header("Location: contact.html");
-  exit();
-} ?>
+			exit();
+           
+         } ?>

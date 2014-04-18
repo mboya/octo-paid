@@ -84,6 +84,7 @@
       
       <!--------start-logo------>
       <div class="logo">
+        <h1>Welcome</h1>
         <!--<a href="index.html"><img src="web/images/logo.png" alt="" /></a>-->
       </div>	
       <!--------end-logo--------->
