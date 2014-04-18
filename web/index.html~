@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
 <link href="web/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="web/css/bootstrap.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" href="web/css/imgeffect.css" />
 <script src="web/js/jquery.min.js"></script>
   <!-- start gallery Script -->
@@ -84,7 +85,6 @@
       
       <!--------start-logo------>
       <div class="logo">
-        <h1>Welcome</h1>
         <!--<a href="index.html"><img src="web/images/logo.png" alt="" /></a>-->
       </div>	
       <!--------end-logo--------->
@@ -95,6 +95,7 @@
           <li><a href="#home" class="scroll">Home</a></li>
           <li><a href="#about" class="scroll">About</a></li>
           <li><a href="#contact" class="scroll">Contact</a></li>
+          <li><a href="#small-dialog1" class="popup-with-zoom-anim">Login</a></li>
           <div class="clear"> </div>
         </ul>
       </div>
@@ -105,6 +106,22 @@
     </div>
   </div>
   <!------end-header------------>
+  
+  <!--start-mfp -->
+  <div id="small-dialog1" class="mfp-hide">
+    <div class="pop_up" style="text-align:center;">
+      <h2>Welcome, Please Login</h2>
+      <img src="web/images/icon1.png" alt=""/>
+      <p class="para"></p>
+      <form method="post" action="">
+        <input type="text" placeholder="username" style="width:100%;" >
+        <input type="password" placeholder="password" style="width:100%;" >
+        <input type="submi" class="btn btn-info" >
+      </form>
+    </div>
+  </div>
+  <!--end-mfp -->	
+					
   
   <!-- start slider -->
   <div class="slider_bg">
